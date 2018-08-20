@@ -127,7 +127,7 @@ document.onkeypress = function(event)
 	{
 		clickButton(keyPress);
 	}
-	else if (keyPress == '=' || event.keyCode == 13)
+	else if (keyPress == '=')
 	{
 		clickButton('=');
 	}
